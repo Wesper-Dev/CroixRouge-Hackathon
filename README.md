@@ -1,19 +1,14 @@
 # Red Cross Training Platform
 
-A modern interactive t3. Set up environment variables:
-   ```bash
-   cp .env.example .env.local
-   ```
-   Fill in the required values in `.env.local`, including Supabase credentials and API keys.
+A modern interactive training application for Red Cross volunteers and staff, featuring spaced repetition flashcards, AI-powered learning assistance, multiplayer quiz modes, and an intelligent chat interface.
 
-> **Tip:** Use [dotenv-safe](https://www.npmjs.com/package/dotenv-safe) to automatically validate required environment variables and prevent deployment with missing configs.
+## About this fork
 
-4. Initialize the database:
-   ```bash
-   pnpm db:push
-   ```
+This is my fork of a team project started at the **IA & Crise hackathon** (French Red Cross and Fondation Simplon, 4–5 April 2025, 1st of 12 teams), then continued as volunteer work with the team. It holds part of the team's code, up to May 2025; other parts of the work stayed internal to the French Red Cross. The project was later presented at the [AI for Good summit](https://www.linkedin.com/feed/update/urn:li:activity:7348294640778797059/) by the French Red Cross innovation team.
 
-> **Warning:** Always backup your database before running migrations in production. Use `pg_dump` or Supabase's backup features to prevent data loss.ion for Red Cross volunteers and staff, featuring spaced repetition flashcards, AI-powered learning assistance, multiplayer quiz modes, and intelligent chat interface.
+Most commits here were made from a shared team machine while pair programming, which is why they are signed "Your Name". They are team work, not attributed to one person.
+
+**My part:** at the hackathon, the front end and features of a chatbot for first-aiders, and co-building its RAG over a 700-page manual with a third-party platform's tools. Over the following months: front end and back end of the app, flashcards, and help on the Socratic coach. The advanced document retrieval was built by other team members. More on [my portfolio](https://wesper-dev.github.io/projects/croix-rouge/).
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![TypeScript](https://img.shields.io/badge/typescript-5.2.2-blue.svg)
